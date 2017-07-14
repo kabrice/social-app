@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.51 clang-802.0.41)"
+options: "a01cc1bc3df3512d03bd1a72a4e206cc"
+build_time: [553370382, 752420000]
+inputs:
+  "/Users/Edgar/Documents/IOSApp/devslopes-social/devslopes-social/SignInVC.swift": [553370378, 0]
+  "/Users/Edgar/Documents/IOSApp/devslopes-social/devslopes-social/AppDelegate.swift": [553370378, 0]
