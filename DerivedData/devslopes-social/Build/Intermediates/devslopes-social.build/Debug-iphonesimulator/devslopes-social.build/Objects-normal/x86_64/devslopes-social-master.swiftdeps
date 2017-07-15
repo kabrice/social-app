@@ -1,11 +1,11 @@
 version: "Apple Swift version 3.1 (swiftlang-802.0.51 clang-802.0.41)"
-options: "a01cc1bc3df3512d03bd1a72a4e206cc"
-build_time: [553376253, 998581000]
+options: "562504a443957c879e0504fbd5e83213"
+build_time: [553439112, 567413000]
 inputs:
-  "/Users/Edgar/Documents/IOSApp/devslopes-social/devslopes-social/FancyField.swift": [553376252, 0]
-  "/Users/Edgar/Documents/IOSApp/devslopes-social/devslopes-social/SignInVC.swift": [553370378, 0]
+  "/Users/Edgar/Documents/IOSApp/devslopes-social/devslopes-social/FancyField.swift": [553376653, 0]
+  "/Users/Edgar/Documents/IOSApp/devslopes-social/devslopes-social/SignInVC.swift": [553439109, 0]
   "/Users/Edgar/Documents/IOSApp/devslopes-social/devslopes-social/RoundBtn.swift": [553375405, 0]
-  "/Users/Edgar/Documents/IOSApp/devslopes-social/devslopes-social/AppDelegate.swift": [553370378, 0]
+  "/Users/Edgar/Documents/IOSApp/devslopes-social/devslopes-social/AppDelegate.swift": [553419612, 0]
   "/Users/Edgar/Documents/IOSApp/devslopes-social/devslopes-social/FancyView.swift": [553373642, 0]
   "/Users/Edgar/Documents/IOSApp/devslopes-social/devslopes-social/Constants.swift": [553373642, 0]
   "/Users/Edgar/Documents/IOSApp/devslopes-social/devslopes-social/FancyBtn.swift": [553376084, 0]

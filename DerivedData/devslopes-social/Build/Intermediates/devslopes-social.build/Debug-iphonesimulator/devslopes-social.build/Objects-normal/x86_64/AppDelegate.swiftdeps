@@ -17,14 +17,21 @@ depends-top-level:
 - "AppDelegate"
 - "Bool"
 - !private "BooleanLiteralType"
+- "CastingPrecedence"
+- !private "FBSDKApplicationDelegate"
 - !private "FirebaseApp"
+- !private "String"
 - "UIApplication"
 - "UIApplicationDelegate"
 - "UIApplicationLaunchOptionsKey"
+- "UIApplicationOpenURLOptionsKey"
 - "UIResponder"
 - "UIWindow"
+- "URL"
 depends-member:
+- !private ["Ps9AnyObject", "FBSDKApplicationDelegate"]
 - !private ["Ps9AnyObject", "FirebaseApp"]
+- !private ["Ps9AnyObject", "UIApplicationOpenURLOptionsKey"]
 - ["Ps9AnyObject", "application"]
 - ["Ps9AnyObject", "applicationDidBecomeActive"]
 - ["Ps9AnyObject", "applicationDidEnterBackground"]
@@ -39,13 +46,18 @@ depends-member:
 - ["Ps9AnyObject", "applicationWillTerminate"]
 - !private ["Ps9AnyObject", "configure"]
 - !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "sharedInstance"]
 - ["Ps9AnyObject", "window"]
 - ["Ps9AnyObject", ""]
 - ["C16devslopes_social11AppDelegate", "Bool"]
+- !private ["C16devslopes_social11AppDelegate", "FBSDKApplicationDelegate"]
 - !private ["C16devslopes_social11AppDelegate", "FirebaseApp"]
+- !private ["C16devslopes_social11AppDelegate", "String"]
 - ["C16devslopes_social11AppDelegate", "UIApplication"]
 - ["C16devslopes_social11AppDelegate", "UIApplicationLaunchOptionsKey"]
+- ["C16devslopes_social11AppDelegate", "UIApplicationOpenURLOptionsKey"]
 - ["C16devslopes_social11AppDelegate", "UIWindow"]
+- ["C16devslopes_social11AppDelegate", "URL"]
 - ["C16devslopes_social11AppDelegate", "application"]
 - ["C16devslopes_social11AppDelegate", "applicationDidBecomeActive"]
 - ["C16devslopes_social11AppDelegate", "applicationDidEnterBackground"]
@@ -61,7 +73,9 @@ depends-member:
 - ["C16devslopes_social11AppDelegate", "deinit"]
 - ["C16devslopes_social11AppDelegate", "init"]
 - ["C16devslopes_social11AppDelegate", "window"]
+- !private ["Ps7CVarArg", "FBSDKApplicationDelegate"]
 - !private ["Ps7CVarArg", "FirebaseApp"]
+- !private ["Ps7CVarArg", "UIApplicationOpenURLOptionsKey"]
 - ["Ps7CVarArg", "application"]
 - ["Ps7CVarArg", "applicationDidBecomeActive"]
 - ["Ps7CVarArg", "applicationDidEnterBackground"]
@@ -76,9 +90,15 @@ depends-member:
 - ["Ps7CVarArg", "applicationWillTerminate"]
 - !private ["Ps7CVarArg", "configure"]
 - !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "sharedInstance"]
+- !private ["Ps7CVarArg", "subscript"]
 - ["Ps7CVarArg", "window"]
 - ["Ps7CVarArg", ""]
+- !private ["Ps10Collection", "subscript"]
+- !private ["Ps10Comparable", "sourceApplication"]
+- !private ["Ps28CustomDebugStringConvertible", "FBSDKApplicationDelegate"]
 - !private ["Ps28CustomDebugStringConvertible", "FirebaseApp"]
+- !private ["Ps28CustomDebugStringConvertible", "UIApplicationOpenURLOptionsKey"]
 - ["Ps28CustomDebugStringConvertible", "application"]
 - ["Ps28CustomDebugStringConvertible", "applicationDidBecomeActive"]
 - ["Ps28CustomDebugStringConvertible", "applicationDidEnterBackground"]
@@ -93,9 +113,14 @@ depends-member:
 - ["Ps28CustomDebugStringConvertible", "applicationWillTerminate"]
 - !private ["Ps28CustomDebugStringConvertible", "configure"]
 - !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "sharedInstance"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
 - ["Ps28CustomDebugStringConvertible", "window"]
 - ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps23CustomStringConvertible", "FBSDKApplicationDelegate"]
 - !private ["Ps23CustomStringConvertible", "FirebaseApp"]
+- !private ["Ps23CustomStringConvertible", "UIApplicationOpenURLOptionsKey"]
 - ["Ps23CustomStringConvertible", "application"]
 - ["Ps23CustomStringConvertible", "applicationDidBecomeActive"]
 - ["Ps23CustomStringConvertible", "applicationDidEnterBackground"]
@@ -110,9 +135,14 @@ depends-member:
 - ["Ps23CustomStringConvertible", "applicationWillTerminate"]
 - !private ["Ps23CustomStringConvertible", "configure"]
 - !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "sharedInstance"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
 - ["Ps23CustomStringConvertible", "window"]
 - ["Ps23CustomStringConvertible", ""]
+- !private ["Vs10Dictionary", "subscript"]
+- !private ["Ps9Equatable", "FBSDKApplicationDelegate"]
 - !private ["Ps9Equatable", "FirebaseApp"]
+- !private ["Ps9Equatable", "UIApplicationOpenURLOptionsKey"]
 - ["Ps9Equatable", "application"]
 - ["Ps9Equatable", "applicationDidBecomeActive"]
 - ["Ps9Equatable", "applicationDidEnterBackground"]
@@ -127,10 +157,17 @@ depends-member:
 - ["Ps9Equatable", "applicationWillTerminate"]
 - !private ["Ps9Equatable", "configure"]
 - !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "sharedInstance"]
+- !private ["Ps9Equatable", "sourceApplication"]
 - ["Ps9Equatable", "window"]
 - ["Ps9Equatable", ""]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "subscript"]
+- !private ["CSo24FBSDKApplicationDelegate", "application"]
+- !private ["CSo24FBSDKApplicationDelegate", "sharedInstance"]
 - !private ["CSo11FirebaseApp", "configure"]
+- !private ["Ps8Hashable", "FBSDKApplicationDelegate"]
 - !private ["Ps8Hashable", "FirebaseApp"]
+- !private ["Ps8Hashable", "UIApplicationOpenURLOptionsKey"]
 - ["Ps8Hashable", "application"]
 - ["Ps8Hashable", "applicationDidBecomeActive"]
 - ["Ps8Hashable", "applicationDidEnterBackground"]
@@ -145,13 +182,19 @@ depends-member:
 - ["Ps8Hashable", "applicationWillTerminate"]
 - !private ["Ps8Hashable", "configure"]
 - !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "sharedInstance"]
+- !private ["Ps8Hashable", "sourceApplication"]
 - ["Ps8Hashable", "window"]
 - ["Ps8Hashable", ""]
 - ["CSo8NSObject", "Bool"]
+- !private ["CSo8NSObject", "FBSDKApplicationDelegate"]
 - !private ["CSo8NSObject", "FirebaseApp"]
+- !private ["CSo8NSObject", "String"]
 - ["CSo8NSObject", "UIApplication"]
 - ["CSo8NSObject", "UIApplicationLaunchOptionsKey"]
+- ["CSo8NSObject", "UIApplicationOpenURLOptionsKey"]
 - ["CSo8NSObject", "UIWindow"]
+- ["CSo8NSObject", "URL"]
 - ["CSo8NSObject", "application"]
 - ["CSo8NSObject", "applicationDidBecomeActive"]
 - ["CSo8NSObject", "applicationDidEnterBackground"]
@@ -166,8 +209,11 @@ depends-member:
 - ["CSo8NSObject", "applicationWillTerminate"]
 - !private ["CSo8NSObject", "configure"]
 - ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "sharedInstance"]
 - ["CSo8NSObject", "window"]
+- !private ["PSo16NSObjectProtocol", "FBSDKApplicationDelegate"]
 - !private ["PSo16NSObjectProtocol", "FirebaseApp"]
+- !private ["PSo16NSObjectProtocol", "UIApplicationOpenURLOptionsKey"]
 - ["PSo16NSObjectProtocol", "application"]
 - ["PSo16NSObjectProtocol", "applicationDidBecomeActive"]
 - ["PSo16NSObjectProtocol", "applicationDidEnterBackground"]
@@ -182,9 +228,14 @@ depends-member:
 - ["PSo16NSObjectProtocol", "applicationWillTerminate"]
 - !private ["PSo16NSObjectProtocol", "configure"]
 - !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "sharedInstance"]
 - ["PSo16NSObjectProtocol", "window"]
 - ["PSo16NSObjectProtocol", ""]
+- !private ["Ps16RawRepresentable", "sourceApplication"]
+- !private ["Ps8Sequence", "subscript"]
+- !private ["PSo21UIApplicationDelegate", "FBSDKApplicationDelegate"]
 - !private ["PSo21UIApplicationDelegate", "FirebaseApp"]
+- !private ["PSo21UIApplicationDelegate", "UIApplicationOpenURLOptionsKey"]
 - ["PSo21UIApplicationDelegate", "application"]
 - ["PSo21UIApplicationDelegate", "applicationDidBecomeActive"]
 - ["PSo21UIApplicationDelegate", "applicationDidEnterBackground"]
@@ -199,11 +250,16 @@ depends-member:
 - ["PSo21UIApplicationDelegate", "applicationWillTerminate"]
 - ["PSo21UIApplicationDelegate", "window"]
 - ["PSo21UIApplicationDelegate", ""]
+- !private ["VSC30UIApplicationOpenURLOptionsKey", "sourceApplication"]
 - ["CSo11UIResponder", "Bool"]
+- !private ["CSo11UIResponder", "FBSDKApplicationDelegate"]
 - !private ["CSo11UIResponder", "FirebaseApp"]
+- !private ["CSo11UIResponder", "String"]
 - ["CSo11UIResponder", "UIApplication"]
 - ["CSo11UIResponder", "UIApplicationLaunchOptionsKey"]
+- ["CSo11UIResponder", "UIApplicationOpenURLOptionsKey"]
 - ["CSo11UIResponder", "UIWindow"]
+- ["CSo11UIResponder", "URL"]
 - ["CSo11UIResponder", "application"]
 - ["CSo11UIResponder", "applicationDidBecomeActive"]
 - ["CSo11UIResponder", "applicationDidEnterBackground"]
@@ -219,7 +275,9 @@ depends-member:
 - ["CSo11UIResponder", "init"]
 - ["CSo11UIResponder", "window"]
 - ["CSo11UIResponder", ""]
+- !private ["PSo30UIResponderStandardEditActions", "FBSDKApplicationDelegate"]
 - !private ["PSo30UIResponderStandardEditActions", "FirebaseApp"]
+- !private ["PSo30UIResponderStandardEditActions", "UIApplicationOpenURLOptionsKey"]
 - ["PSo30UIResponderStandardEditActions", "application"]
 - ["PSo30UIResponderStandardEditActions", "applicationDidBecomeActive"]
 - ["PSo30UIResponderStandardEditActions", "applicationDidEnterBackground"]
@@ -235,7 +293,9 @@ depends-member:
 - !private ["PSo30UIResponderStandardEditActions", "init"]
 - ["PSo30UIResponderStandardEditActions", "window"]
 - ["PSo30UIResponderStandardEditActions", ""]
+- !private ["Ps9_Hashable", "FBSDKApplicationDelegate"]
 - !private ["Ps9_Hashable", "FirebaseApp"]
+- !private ["Ps9_Hashable", "UIApplicationOpenURLOptionsKey"]
 - ["Ps9_Hashable", "application"]
 - ["Ps9_Hashable", "applicationDidBecomeActive"]
 - ["Ps9_Hashable", "applicationDidEnterBackground"]
@@ -250,23 +310,43 @@ depends-member:
 - ["Ps9_Hashable", "applicationWillTerminate"]
 - !private ["Ps9_Hashable", "configure"]
 - !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "sharedInstance"]
+- !private ["Ps9_Hashable", "sourceApplication"]
 - ["Ps9_Hashable", "window"]
 - ["Ps9_Hashable", ""]
+- !private ["Ps10_Indexable", "subscript"]
+- !private ["Ps14_IndexableBase", "subscript"]
+- !private ["Ps21_ObjectiveCBridgeable", "sourceApplication"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Ps20_SwiftNewtypeWrapper", "sourceApplication"]
 depends-nominal:
 - "Ps9AnyObject"
 - "C16devslopes_social11AppDelegate"
 - "Ps7CVarArg"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
 - "Ps28CustomDebugStringConvertible"
+- !private "Ps17CustomReflectable"
 - "Ps23CustomStringConvertible"
+- !private "Vs10Dictionary"
 - "Ps9Equatable"
+- !private "Ps30ExpressibleByDictionaryLiteral"
+- !private "CSo24FBSDKApplicationDelegate"
 - !private "CSo11FirebaseApp"
 - "Ps8Hashable"
 - "CSo8NSObject"
 - "PSo16NSObjectProtocol"
+- !private "Ps16RawRepresentable"
+- !private "Ps8Sequence"
 - "PSo21UIApplicationDelegate"
+- !private "VSC30UIApplicationOpenURLOptionsKey"
 - "CSo11UIResponder"
 - "PSo30UIResponderStandardEditActions"
 - "Ps9_Hashable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps20_SwiftNewtypeWrapper"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
@@ -286,6 +366,56 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/Bolts.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFTask.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFTask+Exceptions.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFExecutor.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationToken.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFWebViewAppLinkResolver.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFURL.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFMeasurementEvent.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkTarget.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkReturnToRefererView.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkReturnToRefererController.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkResolving.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkNavigation.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLink.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/Bolts-umbrella.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Modules/module.modulemap"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKProfile.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKUtility.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKSettings.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKConstants.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKButton.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKMacros.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCoreKit-umbrella.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Modules/module.modulemap"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginKit-umbrella.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Modules/module.modulemap"
 - "/Users/Edgar/Documents/IOSApp/devslopes-social/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIROptions.h"
 - "/Users/Edgar/Documents/IOSApp/devslopes-social/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
 - "/Users/Edgar/Documents/IOSApp/devslopes-social/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRConfiguration.h"
@@ -353,4 +483,4 @@ depends-external:
 - "/Users/Edgar/Documents/IOSApp/devslopes-social/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FirebaseStorage.h"
 - "/Users/Edgar/Documents/IOSApp/devslopes-social/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Modules/module.modulemap"
 - "/Users/Edgar/Documents/IOSApp/devslopes-social/Pods/Firebase/Core/Sources/Firebase.h"
-interface-hash: "3ced463a6a08738d2e1a137498697d3e"
+interface-hash: "29ec01361b1eed47c0d22992dcac4a9a"
