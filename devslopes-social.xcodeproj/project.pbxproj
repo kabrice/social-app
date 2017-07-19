@@ -18,6 +18,10 @@
 		6D2FCDA31F194B2D00EE39DC /* RoundBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2FCDA21F194B2D00EE39DC /* RoundBtn.swift */; };
 		6D2FCDA51F1951AA00EE39DC /* FancyField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2FCDA41F1951AA00EE39DC /* FancyField.swift */; };
 		6D2FCDA71F1953E900EE39DC /* FancyBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2FCDA61F1953E900EE39DC /* FancyBtn.swift */; };
+		6D2FCDAA1F1A914500EE39DC /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2FCDA91F1A914500EE39DC /* FeedVC.swift */; };
+		6D2FCDAC1F1AC35A00EE39DC /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2FCDAB1F1AC35A00EE39DC /* CircleView.swift */; };
+		6D2FCDAE1F1DAF4400EE39DC /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2FCDAD1F1DAF4400EE39DC /* PostCell.swift */; };
+		6D2FCDB11F1EEC4200EE39DC /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2FCDB01F1EEC4200EE39DC /* DataService.swift */; };
 		C1AE922B30B1083A182D1EFD /* Pods_devslopes_social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E08848245A3240E2467D045C /* Pods_devslopes_social.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +41,10 @@
 		6D2FCDA41F1951AA00EE39DC /* FancyField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyField.swift; sourceTree = "<group>"; };
 		6D2FCDA61F1953E900EE39DC /* FancyBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyBtn.swift; sourceTree = "<group>"; };
 		6D2FCDA81F19F70800EE39DC /* devslopes-social.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "devslopes-social.entitlements"; sourceTree = "<group>"; };
+		6D2FCDA91F1A914500EE39DC /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		6D2FCDAB1F1AC35A00EE39DC /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		6D2FCDAD1F1DAF4400EE39DC /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		6D2FCDB01F1EEC4200EE39DC /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		8BF29EFA20DAE2EE4F45481E /* Pods-devslopes-social.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-devslopes-social.debug.xcconfig"; path = "Pods/Target Support Files/Pods-devslopes-social/Pods-devslopes-social.debug.xcconfig"; sourceTree = "<group>"; };
 		E08848245A3240E2467D045C /* Pods_devslopes_social.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_devslopes_social.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -91,6 +99,7 @@
 		6D2FCD851F190A5600EE39DC /* devslopes-social */ = {
 			isa = PBXGroup;
 			children = (
+				6D2FCDAF1F1EEC2300EE39DC /* Services */,
 				6D2FCDA81F19F70800EE39DC /* devslopes-social.entitlements */,
 				6D2FCD9F1F1947C500EE39DC /* Util */,
 				6D2FCD9C1F190F1300EE39DC /* Controller */,
@@ -120,6 +129,8 @@
 				6D2FCDA21F194B2D00EE39DC /* RoundBtn.swift */,
 				6D2FCDA41F1951AA00EE39DC /* FancyField.swift */,
 				6D2FCDA61F1953E900EE39DC /* FancyBtn.swift */,
+				6D2FCDAB1F1AC35A00EE39DC /* CircleView.swift */,
+				6D2FCDAD1F1DAF4400EE39DC /* PostCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -128,6 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				6D2FCD881F190A5700EE39DC /* SignInVC.swift */,
+				6D2FCDA91F1A914500EE39DC /* FeedVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -138,6 +150,14 @@
 				6D2FCDA01F1947EF00EE39DC /* Constants.swift */,
 			);
 			name = Util;
+			sourceTree = "<group>";
+		};
+		6D2FCDAF1F1EEC2300EE39DC /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				6D2FCDB01F1EEC4200EE39DC /* DataService.swift */,
+			);
+			name = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,13 +290,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D2FCDAC1F1AC35A00EE39DC /* CircleView.swift in Sources */,
 				6D2FCDA51F1951AA00EE39DC /* FancyField.swift in Sources */,
 				6D2FCD891F190A5700EE39DC /* SignInVC.swift in Sources */,
 				6D2FCDA31F194B2D00EE39DC /* RoundBtn.swift in Sources */,
 				6D2FCD871F190A5600EE39DC /* AppDelegate.swift in Sources */,
+				6D2FCDB11F1EEC4200EE39DC /* DataService.swift in Sources */,
+				6D2FCDAA1F1A914500EE39DC /* FeedVC.swift in Sources */,
 				6D2FCD9E1F19474600EE39DC /* FancyView.swift in Sources */,
 				6D2FCDA11F1947EF00EE39DC /* Constants.swift in Sources */,
 				6D2FCDA71F1953E900EE39DC /* FancyBtn.swift in Sources */,
+				6D2FCDAE1F1DAF4400EE39DC /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

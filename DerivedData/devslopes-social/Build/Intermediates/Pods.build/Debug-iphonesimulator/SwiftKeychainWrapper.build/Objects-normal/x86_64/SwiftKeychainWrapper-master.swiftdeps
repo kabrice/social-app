@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.51 clang-802.0.41)"
+options: "75aa409108b302520c00caf7c7c0fe22"
+build_time: [553454029, 220052000]
+inputs:
+  "/Users/Edgar/Documents/IOSApp/devslopes-social/Pods/SwiftKeychainWrapper/SwiftKeychainWrapper/KeychainItemAccessibility.swift": [553453981, 0]
+  "/Users/Edgar/Documents/IOSApp/devslopes-social/Pods/SwiftKeychainWrapper/SwiftKeychainWrapper/KeychainWrapper.swift": [553453981, 0]

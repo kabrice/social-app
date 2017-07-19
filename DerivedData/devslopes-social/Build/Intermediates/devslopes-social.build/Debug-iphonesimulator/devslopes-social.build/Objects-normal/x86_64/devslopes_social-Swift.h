@@ -155,7 +155,19 @@ SWIFT_CLASS("_TtC16devslopes_social11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UIImage;
 @class NSCoder;
+
+SWIFT_CLASS("_TtC16devslopes_social10CircleView")
+@interface CircleView : UIImageView
+- (void)awakeFromNib;
+- (void)layoutSubviews;
+- (nonnull instancetype)initWithImage:(UIImage * _Nullable)image OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithImage:(UIImage * _Nullable)image highlightedImage:(UIImage * _Nullable)highlightedImage OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=3.0);
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 
 SWIFT_CLASS("_TtC16devslopes_social8FancyBtn")
 @interface FancyBtn : UIButton
@@ -182,6 +194,37 @@ SWIFT_CLASS("_TtC16devslopes_social9FancyView")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UITableView;
+@class UITableViewCell;
+@class NSBundle;
+
+SWIFT_CLASS("_TtC16devslopes_social6FeedVC")
+@interface FeedVC : UIViewController <UIScrollViewDelegate, UITableViewDataSource, UITableViewDelegate>
+@property (nonatomic, weak) IBOutlet UITableView * _Null_unspecified tableView;
+- (void)viewDidLoad;
+- (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView SWIFT_WARN_UNUSED_RESULT;
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (IBAction)signOutTapped:(id _Nonnull)sender;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UILabel;
+@class UITextView;
+
+SWIFT_CLASS("_TtC16devslopes_social8PostCell")
+@interface PostCell : UITableViewCell
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified profileImg;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified usernameLbl;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified postImg;
+@property (nonatomic, weak) IBOutlet UITextView * _Null_unspecified caption;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified likesLbl;
+- (void)awakeFromNib;
+- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=3.0);
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 
 SWIFT_CLASS("_TtC16devslopes_social8RoundBtn")
 @interface RoundBtn : UIButton
@@ -192,17 +235,18 @@ SWIFT_CLASS("_TtC16devslopes_social8RoundBtn")
 @end
 
 @class FIRAuthCredential;
-@class NSBundle;
 
 SWIFT_CLASS("_TtC16devslopes_social8SignInVC")
 @interface SignInVC : UIViewController
 @property (nonatomic, weak) IBOutlet FancyField * _Null_unspecified emailField;
 @property (nonatomic, weak) IBOutlet FancyField * _Null_unspecified pwdField;
 - (void)viewDidLoad;
+- (void)viewDidAppear:(BOOL)animated;
 - (void)didReceiveMemoryWarning;
 - (IBAction)facebookBtnTapped:(id _Nonnull)sender;
 - (void)firebaseAuth:(FIRAuthCredential * _Nonnull)credential;
 - (IBAction)signInTapped:(id _Nonnull)sender;
+- (void)completeSiginInId:(NSString * _Nonnull)id userData:(NSDictionary<NSString *, NSString *> * _Nonnull)userData;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end

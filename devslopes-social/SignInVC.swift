@@ -10,6 +10,7 @@ import UIKit
 import FBSDKCoreKit
 import FBSDKLoginKit
 import Firebase
+import SwiftKeychainWrapper
 
 class SignInVC: UIViewController {
     
@@ -20,7 +21,14 @@ class SignInVC: UIViewController {
     override func viewDidLoad() {
         
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        if let _ = KeychainWrapper.standard.string(forKey: KEY_UID){
+            print("EDGAR: ID found in keychain")
+            performSegue(withIdentifier: "goToFeed", sender: nil)
+        }
     }
 
     override func didReceiveMemoryWarning() {
@@ -50,9 +58,13 @@ class SignInVC: UIViewController {
     func firebaseAuth(_ credential: AuthCredential){
         Auth.auth().signIn(with: credential){ (user, error) in
             if error != nil{
-                print("EDGAR: Unable to authenticate with Facebook - \(String(describing: error))")
+                print("EDGAR: Unable to authenticate with Firebase - \(String(describing: error))")
             } else {
                 print("EDGAR: Successfully sign in with Firebase")
+                if let user = user{
+                    let userData = ["provider": credential.provider]
+                    self.completeSiginIn(id: user.uid, userData: userData)
+                }
             }
         }
     }
@@ -62,16 +74,31 @@ class SignInVC: UIViewController {
             Auth.auth().signIn(withEmail: email, password: pwd, completion: { (user, error) in
                 if error == nil{
                     print("EDGAR: Email authentication with Firebase")
+                    if let user = user{
+                        let userData = ["provider": user.providerID]
+                        self.completeSiginIn(id: user.uid, userData: userData)
+                    }
                 } else{
                     Auth.auth().createUser(withEmail: email, password: pwd, completion: { (user, error) in
                         if error != nil{
                             print("EDGAR: Unable to authenticate with Firebase using email")
                         } else{
                             print("EDGAR: Successfully authenticated with Firebase")
+                            if let user = user{
+                                let userData = ["provider": user.providerID]
+                                self.completeSiginIn(id: user.uid, userData: userData)
+                            }
                         }})
                 }
             })
         }
+    }
+    
+    func completeSiginIn(id: String, userData: Dictionary<String, String>){
+        DataService.ds.createFirebaseDBUser(uid: id, userData: userData)
+        let keyChainResult = KeychainWrapper.standard.set(id, forKey: KEY_UID)
+        print("EDGAR: Data saved to keychain \(keyChainResult)")
+        performSegue(withIdentifier: "goToFeed", sender: nil)
     }
 
 }

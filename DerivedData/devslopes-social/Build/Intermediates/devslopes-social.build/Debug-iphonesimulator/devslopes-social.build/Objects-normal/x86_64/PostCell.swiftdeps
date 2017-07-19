@@ -1,0 +1,305 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PostCell"
+provides-nominal:
+- "C16devslopes_social8PostCell"
+provides-member:
+- ["C16devslopes_social8PostCell", ""]
+provides-dynamic-lookup:
+- "awakeFromNib"
+- "caption"
+- "likesLbl"
+- "postImg"
+- "profileImg"
+- "usernameLbl"
+depends-top-level:
+- "PostCell"
+- "UIImageView"
+- "UILabel"
+- "UITableViewCell"
+- "UITextView"
+depends-member:
+- !private ["Ps9AnyObject", "awakeFromNib"]
+- !private ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", ""]
+- !private ["PSo15CALayerDelegate", "awakeFromNib"]
+- !private ["PSo15CALayerDelegate", "init"]
+- ["PSo15CALayerDelegate", ""]
+- !private ["Ps7CVarArg", "awakeFromNib"]
+- !private ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps28CustomDebugStringConvertible", "awakeFromNib"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "awakeFromNib"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "awakeFromNib"]
+- !private ["Ps9Equatable", "init"]
+- ["Ps9Equatable", ""]
+- !private ["Ps8Hashable", "awakeFromNib"]
+- !private ["Ps8Hashable", "init"]
+- ["Ps8Hashable", ""]
+- !private ["PSo8NSCoding", "awakeFromNib"]
+- !private ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", ""]
+- ["CSo8NSObject", "UIImageView"]
+- ["CSo8NSObject", "UILabel"]
+- ["CSo8NSObject", "UITextView"]
+- ["CSo8NSObject", "awakeFromNib"]
+- ["CSo8NSObject", "caption"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "likesLbl"]
+- ["CSo8NSObject", "postImg"]
+- ["CSo8NSObject", "profileImg"]
+- ["CSo8NSObject", "usernameLbl"]
+- !private ["PSo16NSObjectProtocol", "awakeFromNib"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", ""]
+- ["C16devslopes_social8PostCell", "UIImageView"]
+- ["C16devslopes_social8PostCell", "UILabel"]
+- ["C16devslopes_social8PostCell", "UITextView"]
+- ["C16devslopes_social8PostCell", "awakeFromNib"]
+- ["C16devslopes_social8PostCell", "caption"]
+- ["C16devslopes_social8PostCell", "deinit"]
+- ["C16devslopes_social8PostCell", "init"]
+- ["C16devslopes_social8PostCell", "likesLbl"]
+- ["C16devslopes_social8PostCell", "postImg"]
+- ["C16devslopes_social8PostCell", "profileImg"]
+- ["C16devslopes_social8PostCell", "usernameLbl"]
+- !private ["PSo29UIAccessibilityIdentification", "awakeFromNib"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- !private ["PSo12UIAppearance", "awakeFromNib"]
+- !private ["PSo12UIAppearance", "init"]
+- ["PSo12UIAppearance", ""]
+- !private ["PSo21UIAppearanceContainer", "awakeFromNib"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo17UICoordinateSpace", "awakeFromNib"]
+- !private ["PSo17UICoordinateSpace", "init"]
+- ["PSo17UICoordinateSpace", ""]
+- !private ["PSo13UIDynamicItem", "awakeFromNib"]
+- !private ["PSo13UIDynamicItem", "init"]
+- ["PSo13UIDynamicItem", ""]
+- !private ["PSo18UIFocusEnvironment", "awakeFromNib"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo11UIFocusItem", "awakeFromNib"]
+- !private ["PSo11UIFocusItem", "init"]
+- ["PSo11UIFocusItem", ""]
+- !private ["PSo27UIGestureRecognizerDelegate", "awakeFromNib"]
+- !private ["PSo27UIGestureRecognizerDelegate", "init"]
+- ["PSo27UIGestureRecognizerDelegate", ""]
+- ["CSo11UIResponder", "UIImageView"]
+- ["CSo11UIResponder", "UILabel"]
+- ["CSo11UIResponder", "UITextView"]
+- ["CSo11UIResponder", "awakeFromNib"]
+- ["CSo11UIResponder", "caption"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "likesLbl"]
+- ["CSo11UIResponder", "postImg"]
+- ["CSo11UIResponder", "profileImg"]
+- ["CSo11UIResponder", "usernameLbl"]
+- !private ["PSo30UIResponderStandardEditActions", "awakeFromNib"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- ["CSo15UITableViewCell", "UIImageView"]
+- ["CSo15UITableViewCell", "UILabel"]
+- ["CSo15UITableViewCell", "UITextView"]
+- ["CSo15UITableViewCell", "awakeFromNib"]
+- ["CSo15UITableViewCell", "caption"]
+- ["CSo15UITableViewCell", "init"]
+- ["CSo15UITableViewCell", "likesLbl"]
+- ["CSo15UITableViewCell", "postImg"]
+- ["CSo15UITableViewCell", "profileImg"]
+- ["CSo15UITableViewCell", "usernameLbl"]
+- ["CSo15UITableViewCell", ""]
+- !private ["PSo18UITraitEnvironment", "awakeFromNib"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo6UIView", "UIImageView"]
+- ["CSo6UIView", "UILabel"]
+- ["CSo6UIView", "UITextView"]
+- ["CSo6UIView", "awakeFromNib"]
+- ["CSo6UIView", "caption"]
+- ["CSo6UIView", "init"]
+- ["CSo6UIView", "likesLbl"]
+- ["CSo6UIView", "postImg"]
+- ["CSo6UIView", "profileImg"]
+- ["CSo6UIView", "usernameLbl"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "awakeFromNib"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "init"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", ""]
+- !private ["Ps9_Hashable", "awakeFromNib"]
+- !private ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", ""]
+depends-nominal:
+- "Ps9AnyObject"
+- "PSo15CALayerDelegate"
+- "Ps7CVarArg"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "PSo8NSCoding"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "C16devslopes_social8PostCell"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "PSo11UIFocusItem"
+- "PSo27UIGestureRecognizerDelegate"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "CSo15UITableViewCell"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- "Ps37_DefaultCustomPlaygroundQuickLookable"
+- "Ps9_Hashable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/Pods/Firebase/Core/Sources/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/Bolts.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFTask.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFTask+Exceptions.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFExecutor.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationToken.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFWebViewAppLinkResolver.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFURL.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFMeasurementEvent.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkTarget.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkReturnToRefererView.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkReturnToRefererController.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkResolving.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkNavigation.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLink.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/Bolts-umbrella.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Modules/module.modulemap"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKProfile.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKUtility.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKSettings.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKConstants.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKButton.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKMacros.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCoreKit-umbrella.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Modules/module.modulemap"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginKit-umbrella.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Modules/module.modulemap"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRCoreSwiftNameSupport.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsSwiftNameSupport.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIROptions.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRConfiguration.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRApp.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuthVersion.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUserInfo.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUser.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthDataResult.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAdditionalUserInfo.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthAPNSTokenType.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuth.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRPhoneAuthProvider.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRPhoneAuthCredential.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIROAuthProvider.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRGoogleAuthProvider.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthSwiftNameSupport.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIREmailAuthProvider.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuth.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Modules/module.modulemap"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRServerValue.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRTransactionResult.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRMutableData.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseQuery.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseReference.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabase.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataSnapshot.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseSwiftNameSupport.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataEventType.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FirebaseDatabase.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Modules/module.modulemap"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageTaskSnapshot.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageUploadTask.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageReference.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageMetadata.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageTask.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageObservableTask.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageDownloadTask.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageSwiftNameSupport.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageConstants.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorage.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FirebaseStorage.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Modules/module.modulemap"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/Pods/Firebase/Core/Sources/Firebase.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/SwiftKeychainWrapper/SwiftKeychainWrapper.framework/Modules/SwiftKeychainWrapper.swiftmodule/x86_64.swiftmodule"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/SwiftKeychainWrapper/SwiftKeychainWrapper.framework/Headers/SwiftKeychainWrapper-Swift.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/SwiftKeychainWrapper/SwiftKeychainWrapper.framework/Headers/SwiftKeychainWrapper.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/SwiftKeychainWrapper/SwiftKeychainWrapper.framework/Headers/SwiftKeychainWrapper-umbrella.h"
+- "/Users/Edgar/Documents/IOSApp/devslopes-social/DerivedData/devslopes-social/Build/Products/Debug-iphonesimulator/SwiftKeychainWrapper/SwiftKeychainWrapper.framework/Modules/module.modulemap"
+interface-hash: "d9458fb6738041e6434778823baacd30"
