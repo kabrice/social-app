@@ -13,6 +13,8 @@ import SwiftKeychainWrapper
 class FeedVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     @IBOutlet weak var tableView: UITableView!
+    
+    var posts = [Post]()
 
     override func viewDidLoad() {
         
@@ -21,8 +23,21 @@ class FeedVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         tableView.delegate = self
         tableView.dataSource = self
         
+        //This is a listener for instant update
         DataService.ds.REF_POSTS.observe(.value, with: { (snapchot) in
-            print(snapchot.value)})
+            self.posts = [] 
+            if let snapchot = snapchot.children.allObjects as? [DataSnapshot]{
+                for snap in snapchot{
+                    print("SNAP: \(snap)")
+                    if let postDict = snap.value as? Dictionary<String, Any>{
+                        let key = snap.key
+                        let post = Post(postkey: key, postData: postDict)
+                        self.posts.append(post)
+                    }
+                }
+            }
+            self.tableView.reloadData()
+        })
     }
     
     func numberOfSections(in tableView: UITableView) -> Int {
@@ -30,7 +45,7 @@ class FeedVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 3
+        return posts.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
