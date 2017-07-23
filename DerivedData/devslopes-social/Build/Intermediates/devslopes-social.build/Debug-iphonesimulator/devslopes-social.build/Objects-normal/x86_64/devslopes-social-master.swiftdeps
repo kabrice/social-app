@@ -1,16 +1,16 @@
 version: "Apple Swift version 3.1 (swiftlang-802.0.51 clang-802.0.41)"
 options: "d8f0f08b126089eef9ad70f777a65406"
-build_time: [553912843, 434869000]
+build_time: [554082297, 298084000]
 inputs:
-  "/Users/Edgar/Documents/IOSApp/devslopes-social/devslopes-social/CircleView.swift": [553663638, 0]
+  "/Users/Edgar/Documents/IOSApp/devslopes-social/devslopes-social/CircleView.swift": [553917794, 0]
   "/Users/Edgar/Documents/IOSApp/devslopes-social/devslopes-social/FancyField.swift": [553376653, 0]
   "/Users/Edgar/Documents/IOSApp/devslopes-social/devslopes-social/SignInVC.swift": [553746939, 0]
   "/Users/Edgar/Documents/IOSApp/devslopes-social/devslopes-social/Post.swift": [553908153, 0]
   "/Users/Edgar/Documents/IOSApp/devslopes-social/devslopes-social/RoundBtn.swift": [553375405, 0]
   "/Users/Edgar/Documents/IOSApp/devslopes-social/devslopes-social/AppDelegate.swift": [553419612, 0]
-  "/Users/Edgar/Documents/IOSApp/devslopes-social/devslopes-social/DataService.swift": [553746170, 0]
-  "/Users/Edgar/Documents/IOSApp/devslopes-social/devslopes-social/FeedVC.swift": [553912841, 0]
+  "/Users/Edgar/Documents/IOSApp/devslopes-social/devslopes-social/DataService.swift": [554080863, 0]
+  "/Users/Edgar/Documents/IOSApp/devslopes-social/devslopes-social/FeedVC.swift": [554081214, 0]
   "/Users/Edgar/Documents/IOSApp/devslopes-social/devslopes-social/FancyView.swift": [553373642, 0]
   "/Users/Edgar/Documents/IOSApp/devslopes-social/devslopes-social/Constants.swift": [553457227, 0]
   "/Users/Edgar/Documents/IOSApp/devslopes-social/devslopes-social/FancyBtn.swift": [553376084, 0]
-  "/Users/Edgar/Documents/IOSApp/devslopes-social/devslopes-social/PostCell.swift": [553912801, 0]
+  "/Users/Edgar/Documents/IOSApp/devslopes-social/devslopes-social/PostCell.swift": [554082292, 0]

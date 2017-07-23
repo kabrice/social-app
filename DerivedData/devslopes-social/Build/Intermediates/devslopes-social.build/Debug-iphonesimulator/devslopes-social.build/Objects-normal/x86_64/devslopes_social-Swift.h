@@ -195,16 +195,25 @@ SWIFT_CLASS("_TtC16devslopes_social9FancyView")
 @end
 
 @class UITableView;
+@class UIImagePickerController;
+@class NSString;
 @class UITableViewCell;
 @class NSBundle;
 
 SWIFT_CLASS("_TtC16devslopes_social6FeedVC")
-@interface FeedVC : UIViewController <UIScrollViewDelegate, UITableViewDataSource, UITableViewDelegate>
+@interface FeedVC : UIViewController <UIScrollViewDelegate, UITableViewDataSource, UIImagePickerControllerDelegate, UINavigationControllerDelegate, UITableViewDelegate>
 @property (nonatomic, weak) IBOutlet UITableView * _Null_unspecified tableView;
+@property (nonatomic, weak) IBOutlet CircleView * _Null_unspecified imageAdd;
+@property (nonatomic, strong) UIImagePickerController * _Null_unspecified imagePicker;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) NSCache<NSString *, UIImage *> * _Nonnull imageCache;)
++ (NSCache<NSString *, UIImage *> * _Nonnull)imageCache SWIFT_WARN_UNUSED_RESULT;
++ (void)setImageCache:(NSCache<NSString *, UIImage *> * _Nonnull)value;
 - (void)viewDidLoad;
 - (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView SWIFT_WARN_UNUSED_RESULT;
 - (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
 - (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (void)imagePickerController:(UIImagePickerController * _Nonnull)picker didFinishPickingMediaWithInfo:(NSDictionary<NSString *, id> * _Nonnull)info;
+- (IBAction)addImageTapped:(id _Nonnull)sender;
 - (IBAction)signOutTapped:(id _Nonnull)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
